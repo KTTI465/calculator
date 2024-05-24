@@ -1,0 +1,21 @@
+u=12
+u^2
+u=u+PI
+test = rad(PI/180)
+
+sin(test)+cos(test)
+
+func{x, y, z} = x * y * z
+func{3, 4, 5}
+
+asdf{x, y, z} = x^y * z - u
+asdf{3, 4, 5}
+
+test{x, y, z, a} = x^a + sin(rad(y*z))
+test{4, 23, 33, 5}
+
+test2{x} = x^3 + cos(rad(PI/2))
+test2{2}
+
+test3{x} = test2{2} + x
+test3{3}

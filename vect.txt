@@ -1,0 +1,19 @@
+testvec1 = <4, 3>
+testvec2 = <2, 3>
+testvec3 = <2, 3, 5>
+testvec4 = <5, 6, 8>
+
+vec
+testvec1 + testvec2
+
+vec
+testvec1 - testvec2
+
+vec
+testvec1 + testvec3
+
+vec
+testvec3 * testvec4
+
+vec
+testvec3 ^ testvec4
